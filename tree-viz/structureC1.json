@@ -1,0 +1,285 @@
+{
+    "pred": "4972 of 0, 5028 of 1",
+    "side": "right",
+    "name": "transaction_value > 999.99",
+    "type": "numerical",
+    "size": 10000.0,
+    "children": [
+        {
+            "pred": "3993 of 0, 1065 of 1",
+            "side": "right",
+            "name": "client_age > 73.82",
+            "type": "numerical",
+            "size": 5058.0,
+            "children": [
+                {
+                    "pred": "18 of 0, 14 of 1",
+                    "side": "right",
+                    "name": "client_age > 74.86",
+                    "type": "numerical",
+                    "size": 32.0,
+                    "children": [
+                        {
+                            "pred": "17 of 0, 9 of 1",
+                            "side": "right",
+                            "name": "transaction_value > 1571.82",
+                            "type": "numerical",
+                            "size": 26.0,
+                            "children": [
+                                {
+                                    "name": "5 of 0, 0 of 1",
+                                    "size": 5.0,
+                                    "side": "right"
+                                },
+                                {
+                                    "pred": "12 of 0, 9 of 1",
+                                    "side": "left",
+                                    "name": "P4 > 0.5",
+                                    "type": "numerical",
+                                    "size": 21.0,
+                                    "children": [
+                                        {
+                                            "name": "0 of 0, 3 of 1",
+                                            "size": 3.0,
+                                            "side": "right"
+                                        },
+                                        {
+                                            "name": "12 of 0, 6 of 1",
+                                            "size": 18.0,
+                                            "side": "left"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "pred": "1 of 0, 5 of 1",
+                            "side": "left",
+                            "name": "add_shown > 0.5",
+                            "type": "numerical",
+                            "size": 6.0,
+                            "children": [
+                                {
+                                    "name": "0 of 0, 4 of 1",
+                                    "size": 4.0,
+                                    "side": "right"
+                                },
+                                {
+                                    "pred": "1 of 0, 1 of 1",
+                                    "side": "left",
+                                    "name": "cLTV > 71311540.0",
+                                    "type": "numerical",
+                                    "size": 2.0,
+                                    "children": [
+                                        {
+                                            "name": "0 of 0, 1 of 1",
+                                            "size": 1.0,
+                                            "side": "right"
+                                        },
+                                        {
+                                            "name": "1 of 0, 0 of 1",
+                                            "size": 1.0,
+                                            "side": "left"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "pred": "3975 of 0, 1051 of 1",
+                    "side": "left",
+                    "name": "retention_time > 6856.5",
+                    "type": "numerical",
+                    "size": 5026.0,
+                    "children": [
+                        {
+                            "pred": "3805 of 0, 984 of 1",
+                            "side": "right",
+                            "name": "P5 > 0.5",
+                            "type": "numerical",
+                            "size": 4789.0,
+                            "children": [
+                                {
+                                    "pred": "733 of 0, 151 of 1",
+                                    "side": "right",
+                                    "name": "client_age > 23.07",
+                                    "type": "numerical",
+                                    "size": 884.0,
+                                    "children": [
+                                        {
+                                            "name": "733 of 0, 149 of 1",
+                                            "size": 882.0,
+                                            "side": "right"
+                                        },
+                                        {
+                                            "name": "0 of 0, 2 of 1",
+                                            "size": 2.0,
+                                            "side": "left"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "pred": "3072 of 0, 833 of 1",
+                                    "side": "left",
+                                    "name": "cLTV > 79082352.0",
+                                    "type": "numerical",
+                                    "size": 3905.0,
+                                    "children": [
+                                        {
+                                            "name": "693 of 0, 227 of 1",
+                                            "size": 920.0,
+                                            "side": "right"
+                                        },
+                                        {
+                                            "name": "2379 of 0, 606 of 1",
+                                            "size": 2985.0,
+                                            "side": "left"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "pred": "170 of 0, 67 of 1",
+                            "side": "left",
+                            "name": "profit_margin > 0.2",
+                            "type": "numerical",
+                            "size": 237.0,
+                            "children": [
+                                {
+                                    "pred": "87 of 0, 51 of 1",
+                                    "side": "right",
+                                    "name": "cLTV > 62068808.0",
+                                    "type": "numerical",
+                                    "size": 138.0,
+                                    "children": [
+                                        {
+                                            "name": "2 of 0, 7 of 1",
+                                            "size": 9.0,
+                                            "side": "right"
+                                        },
+                                        {
+                                            "name": "85 of 0, 44 of 1",
+                                            "size": 129.0,
+                                            "side": "left"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "pred": "83 of 0, 16 of 1",
+                                    "side": "left",
+                                    "name": "cLTV > 14377324.5",
+                                    "type": "numerical",
+                                    "size": 99.0,
+                                    "children": [
+                                        {
+                                            "name": "21 of 0, 9 of 1",
+                                            "size": 30.0,
+                                            "side": "right"
+                                        },
+                                        {
+                                            "name": "62 of 0, 7 of 1",
+                                            "size": 69.0,
+                                            "side": "left"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "pred": "979 of 0, 3963 of 1",
+            "side": "left",
+            "name": "cLTV > 138948240.0",
+            "type": "numerical",
+            "size": 4942.0,
+            "children": [
+                {
+                    "pred": "4 of 0, 3 of 1",
+                    "side": "right",
+                    "name": "cLTV > 155350080.0",
+                    "type": "numerical",
+                    "size": 7.0,
+                    "children": [
+                        {
+                            "name": "0 of 0, 3 of 1",
+                            "size": 3.0,
+                            "side": "right"
+                        },
+                        {
+                            "name": "4 of 0, 0 of 1",
+                            "size": 4.0,
+                            "side": "left"
+                        }
+                    ]
+                },
+                {
+                    "pred": "975 of 0, 3960 of 1",
+                    "side": "left",
+                    "name": "client_age > 4.18",
+                    "type": "numerical",
+                    "size": 4935.0,
+                    "children": [
+                        {
+                            "pred": "975 of 0, 3939 of 1",
+                            "side": "right",
+                            "name": "client_age > 8.08",
+                            "type": "numerical",
+                            "size": 4914.0,
+                            "children": [
+                                {
+                                    "pred": "957 of 0, 3905 of 1",
+                                    "side": "right",
+                                    "name": "retention_time > 7358.5",
+                                    "type": "numerical",
+                                    "size": 4862.0,
+                                    "children": [
+                                        {
+                                            "name": "722 of 0, 3073 of 1",
+                                            "size": 3795.0,
+                                            "side": "right"
+                                        },
+                                        {
+                                            "name": "235 of 0, 832 of 1",
+                                            "size": 1067.0,
+                                            "side": "left"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "pred": "18 of 0, 34 of 1",
+                                    "side": "left",
+                                    "name": "client_age > 7.88",
+                                    "type": "numerical",
+                                    "size": 52.0,
+                                    "children": [
+                                        {
+                                            "name": "6 of 0, 0 of 1",
+                                            "size": 6.0,
+                                            "side": "right"
+                                        },
+                                        {
+                                            "name": "12 of 0, 34 of 1",
+                                            "size": 46.0,
+                                            "side": "left"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "0 of 0, 21 of 1",
+                            "size": 21.0,
+                            "side": "left"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

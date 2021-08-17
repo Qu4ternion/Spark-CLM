@@ -1,0 +1,21 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+
+cython-blis=0.7.4=py38h347fdf6_0
+importlib-metadata=4.5.0=py38haa244fe_0
+joblib=1.0.1=pyhd8ed1ab_0
+keras-nightly=2.5.0.dev2021032900=pypi_0
+keras-preprocessing=1.1.2=pypi_0
+mkl=2019.4=245
+mkl-service=2.3.0=py38h196d8e1_0
+nltk=3.5=pypi_0
+numpy=1.19.5=pypi_0
+pandas=1.3.1=pypi_0
+scikit-learn=0.24.2=py38h5d5d464_0
+scipy=1.7.1=pypi_0
+setuptools=54.2.0=pypi_0
+shap=0.39.0=pypi_0
+python=3.8.5=h5fd99cc_1
+werkzeug=2.0.1=pypi_0
+wheel=0.36.2=pyhd3deb0d_0

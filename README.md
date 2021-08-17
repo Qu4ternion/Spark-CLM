@@ -47,10 +47,14 @@ Let’s now analyze the the association between the variables through a correlat
 ![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/heatmap.png?raw=true)
 
 As previously discerned:
-▪ There is a strong relationship between customer age and transaction value, 
-▪ A strong association between profit margin and cLTV, 
-▪ A moderate association between retention time and cLTV, 
-▪ The rest of the variables are slightly associated.
+
+  ▪ There is a strong relationship between customer age and transaction value, 
+  
+  ▪ A strong association between profit margin and cLTV, 
+  
+  ▪ A moderate association between retention time and cLTV, 
+  
+  ▪ The rest of the variables are slightly associated.
 
 We now analyze the range of distribution of the two most correlated variables, the age of the client and the amount disbursed (i.e. transaction value):
 

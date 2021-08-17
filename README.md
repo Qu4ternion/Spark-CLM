@@ -1,5 +1,5 @@
 # Spark-CLM
-Revenue Optimization based on Churn Prevention and Customer Segmentation using Machine Learning (XGBoost, Logistic Regression, etc.) and Data Visualization techniques with Hyperparameter optimization executed on a distributed Spark cluster.
+Revenue Optimization based on Churn Prevention, advertisement A/B testing and Customer Segmentation using Machine Learning (XGBoost, Logistic Regression, etc.) and Data Visualization techniques with Hyperparameter optimization executed on a distributed Spark cluster.
 
 ## Goals:
 ▪ Optimize revenue and cLTV (Customer Life-time Value).  
@@ -18,7 +18,7 @@ Revenue Optimization based on Churn Prevention and Customer Segmentation using M
 ## Data :
 ▪ 100,000 observations of a company's customer transactions, each comprising 20 variables collected from their app over the 2000 – 2021 period.   
 ▪ Pre-processing: data cleaning/wrangling, normalization, standardization, One-hot encoding.    
-
+  
 
 
 ### Exploratory analysis:
@@ -58,3 +58,26 @@ We now analyze the range of distribution of the two most correlated variables, t
 
 We now turn to the variable "Visits per day" which gives us the number of times the user had visited the application on the day of the transaction. When we analyze this variable normally, we find that it does not present us with any useful information. However, an interesting pattern emerges when we break down this variable by month of the year:
 ![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/clicks_distribution.png?raw=true)
+
+### Segmentation:
+
+#### C&RT:
+![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/tree_graph.PNG?raw=true)
+
+#### K-means:
+![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/k-means.png?raw=true)
+
+### Feature importance & SHAP:
+![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/feature_importance.png?raw=true)
+  
+  _________________
+  
+![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/importance.png?raw=true)
+  _________________
+
+![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/shap.png?raw=true)
+  _________________
+
+### A/B test:
+![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/t-test.png?raw=true)
+![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/box.png?raw=true)

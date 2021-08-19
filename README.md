@@ -44,7 +44,9 @@ This new configuration gives rise to even more interesting relationships:
 ▪ We can also detect other very relevant relationships: we note that the higher the transaction value, the less likely a customer is to leave, and the higher his cLTV and profit margin: the company should thus incentivize clients to pay more per transaction (e.g. through upselling).
 Let’s now analyze the the association between the variables through a correlation heatmap :
 
-![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/heatmap.png?raw=true)
+<p align="center">
+  <img src="https://github.com/Qu4ternion/Spark-CLM/blob/main/img/heatmap.png">
+</p>
 
 As previously discerned:
 
@@ -58,7 +60,9 @@ As previously discerned:
 
 We now analyze the range of distribution of the two most correlated variables, the age of the client and the amount disbursed (i.e. transaction value):
 
-![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/hexagraph.png?raw=true)
+<p align="center">
+  <img src="https://github.com/Qu4ternion/Spark-CLM/blob/main/img/hexagraph.png">
+</p>
 
 We now turn to the variable "Visits per day" which gives us the number of times the user had visited the application on the day of the transaction. When we analyze this variable normally, we find that it does not present us with any useful information. However, an interesting pattern emerges when we break down this variable by month of the year:
 ![alt text](https://github.com/Qu4ternion/Spark-CLM/blob/main/img/clicks_distribution.png?raw=true)
